@@ -103,6 +103,9 @@ body {
     border-style: solid !important;
     border-color: black !important;
     box-shadow: 0px 10px 30px rgb(171 171 171 / 60%) !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .cardImg {
