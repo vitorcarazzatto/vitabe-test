@@ -199,6 +199,9 @@ body {
     margin-top: 2%;
     float: left;
     text-align: center;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .textSquare {
@@ -225,7 +228,45 @@ body {
 }
 
 .center-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.footer-text {
+    text-align: center;
+    color: #999;
+    font-size: 11px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    line-height: 20px;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.vitabeFooter {
+    margin-top: 45px;
+}
+
+.news-letter {
+    background-image: url("../img/footer-background.png");
+    background-size: 1920px;
+    height: 300px;
+    background-position: center top;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    filter: brightness(50%);
+}
+
+.social {
+    max-width: 69.6rem !important;
+}
+
+.copy-right {
+    max-width: 50rem !important;
+}
+
+.social-img {
+    margin-top: 60px !important;
+    margin-bottom: 45px;
 }
